@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px; 
+}
+
+h1 {
+    color: #000000;
+}
+
+h2 {
+    color: #000000;
+}
+
+/* Formulario */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#botonGuardar {
+    background-color: #28a745;
+    color: white;
+}
+
+#botonGuardar:hover{
+    background-color: #92dca3;
+}
+
+
+#botonLimpiar {
+    background-color: #dc3545;
+    color: white;
+    margin-top: 10px;
+}
+
+#botonLimpiar:hover {
+    background-color: #d4727b;
+}
+
+/* Tabla */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 14px;
+}
+th {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+.botonEliminar {
+    background-color: #eedbdd;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.botonEliminar:hover {
+    background-color: #ffffff;
+}
+
+/* filtro */
+
+#filtrarCedula {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+#botonFiltar {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+#botonFiltar {
+    background-color: #17a2b8;
+    color: white;
+}
+
+#botonFiltar:hover {
+    background-color: #71c5d4;
+    color: white;
+}
+
+#botonMostrarTodo {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+
+
+#botonMostrarTodo {
+    background-color: #ffc107;
+    color: black;
+}
+
+
+#botonMostrarTodo:hover {
+    background-color: #f5db8f;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas Médicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Programación de Citas Médicas</h1>
+    <form id="formularioCitasMedicas">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required placeholder="Escriba el nombre de paciente">
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required placeholder="Escriba el apellido del paciente">
+        
+        <label for="cedula">Cédula:</label>
+        <input type="number" id="cedula" required placeholder="Escriba el número de cédula del paciente">
+        
+        <label for="fecha">Fecha de la cita:</label>
+        <input type="date" id="fecha" required>
+        
+        <label for="sintomas">Síntomas:</label>
+        <textarea id="sintomas" required placeholder="Escriba los síntomas del paciente"></textarea>
+        
+        <button type="button" id="botonGuardar">Guardar</button>
+        <button type="button" id="botonLimpiar">Limpiar</button>
+    </form>
+    
+    <h2>Agenda</h2>
+    <input type="text" id="filtrarCedula" placeholder="Filtrar por cédula">
+    <button type="button" id="botonFiltar">Filtrar</button>
+    <button type="button" id="botonMostrarTodo">Mostrar Todas las Citas</button>
+    <table id="tablaCitasMedicas">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Cédula</th>
+                <th>Fecha</th>
+                <th>Síntomas</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Espacio para la tabla de citas -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
